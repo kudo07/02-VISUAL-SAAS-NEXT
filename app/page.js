@@ -1,8 +1,8 @@
 'use client';
 import { useState } from 'react';
-import FeedbackItem from './componenets/FeedbackItem';
-import FeedbackFormPopup from './componenets/FeedbackFormPopup';
-import Button from './componenets/Button';
+import FeedbackItem from './components/FeedbackItem';
+import FeedbackFormPopup from './components/FeedbackFormPopup';
+import Button from './components/Button';
 
 export default function Home() {
   const [showFeedbackPopup, setShowFeedbackPopup] = useState(false);
