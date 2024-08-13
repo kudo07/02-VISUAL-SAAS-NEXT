@@ -8,8 +8,8 @@ body {
   @apply bg-black  min-h-screen;
   background: linear-gradient(
       to bottom right,
-      rgba(0, 0, 0, 0.6),
-      rgba(1, 1, 1, 0.6)
+      rgba(0, 0, 0, 0.5),
+      rgba(10, 10, 10, 0.7)
     ),
     url('/bg.jpg');
 
@@ -39,6 +39,14 @@ body {
   height: 0px;
   border-style: solid;
   border-width: 0 20px 25px 18px;
+  border-color: transparent transparent rgb(31, 195, 220) transparent;
+  transform: rotate(0deg);
+}
+.triangleTwo {
+  width: 0px;
+  height: 0px;
+  border-style: solid;
+  border-width: 0 10px 20px 10px;
   border-color: transparent transparent rgb(31, 195, 220) transparent;
   transform: rotate(0deg);
 }
