@@ -16,6 +16,7 @@ const Popup = ({ setShow, children, title }) => {
         <div
           className="bg-salte-900 md:max-w-2xl md:mx-auto md:rounded-lg overflow-hidden"
           onClick={(e) => e.stopPropagation()}
+          // to stop the bubbling by clocking the inside so we stop the propagation by being clicked inside the div element
         >
           <div className="relative flex justify-center ">
             <button

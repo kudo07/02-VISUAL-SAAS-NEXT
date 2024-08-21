@@ -2,7 +2,7 @@
 import { useState } from 'react';
 import FeedbackItem from './components/FeedbackItem';
 import FeedbackFormPopup from './components/FeedbackFormPopup';
-import Button from './components/Button';
+
 import FeedbackItemPopup from './components/FeedbackItemPopup';
 
 export default function Home() {
@@ -37,11 +37,11 @@ export default function Home() {
       <div className=" px-8 py-3 flex border border-gray-700 hover:border-cyan-500">
         <div className="grow"></div>
         <div>
-          <Button onClick={openFeedbackPopupForm}>
-            <span className="p-1 bg-gradient-to-r from-cyan-400 via-sky-400 to-gray-800 text-transparent inline-block bg-clip-text hover:bg-cyan-400">
+          <button onClick={openFeedbackPopupForm}>
+            <span className="p-1 bg-gradient-to-r from-cyan-300 via-sky-400 to-gray-600 text-transparent inline-block bg-clip-text hover:bg-cyan-400 font-bold">
               Help me brainstorm!
             </span>
-          </Button>
+          </button>
         </div>
       </div>
       <div className="px-9 py-6">

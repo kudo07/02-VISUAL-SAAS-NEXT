@@ -32,8 +32,15 @@ const FeedbackItemPopupComment = () => {
           onChange={(e) => setCommentText(e.target.value)}
         />
         <div className="flex justify-end gap-2 mt-2">
-          <Button>Attach Files</Button>
-          <Button disabled={commentText === ''}>Comment</Button>
+          <button className=" ml-2 bg-gradient-to-r from-cyan-300 via-sky-600 to-gray-800 inline-block text-transparent bg-clip-text  font-semibold text-md">
+            Attach Files
+          </button>
+          <button
+            className="mr-10 bg-gradient-to-r from-cyan-300 via-sky-600 to-gray-800 inline-block text-transparent bg-clip-text  font-semibold text-md"
+            disabled={commentText === ''}
+          >
+            Comment
+          </button>
         </div>
       </form>
     </div>
