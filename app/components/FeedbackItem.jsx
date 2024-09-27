@@ -11,10 +11,10 @@ const FeedbackItem = ({ onOpen, title, description, votesCount }) => {
       className="flex gap-4 items-center border border-gray-700 hover:border-cyan-500 mb-2 px-4 py-4 cursor-pointer"
     >
       <div className="">
-        <h2 className="bg-gradient-to-r from-sky-300 via-cyan-400 to-gray-800 text-transparent inline-block bg-clip-text font-extrabold text-xl">
+        <h2 className="bg-gradient-to-b from-cyan-300 via-cyan-600 to-blue-900 text-transparent inline-block bg-clip-text font-extrabold text-xl">
           {title}
         </h2>
-        <p className="text-gray-400 text-md">{description}</p>
+        <p className="text-gray-500 text-md">{description}</p>
       </div>
       <div>
         <button className="shadow-sm  py-1 px-4  gap-1 bg-gradient-to-r from-sky-400 via-cyan-500 to-gray-800 text-transparent inline-block bg-clip-text font-bold text-sm ">

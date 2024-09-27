@@ -26,8 +26,8 @@ export default function Home() {
   return (
     <main className="md:max-w-2xl mx-auto md:shadow-lg md:rounded-lg md:mt-9 overflow-hidden">
       <div className="p-8 flex flex-col justify-center align-middle text-center">
-        <h1 className=" bg-gradient-to-r from-cyan-300 via-sky-600 to-gray-800 inline-block text-transparent bg-clip-text  font-extrabold text-4xl">
-          VISUAL FEEDBACK SAAS
+        <h1 className=" bg-gradient-to-b from-cyan-300 via-cyan-500 to-blue-800 inline-block text-transparent bg-clip-text  font-extrabold text-4xl">
+          VISUAL FEEDBACK BOARD
         </h1>
         <p className="text-opacity-90 text-gray-500 font-bold">
           Help me spark my creativity! What should I build next, or how can I
@@ -38,7 +38,7 @@ export default function Home() {
         <div className="grow"></div>
         <div>
           <button onClick={openFeedbackPopupForm}>
-            <span className="p-1 bg-gradient-to-r from-cyan-300 via-sky-400 to-gray-600 text-transparent inline-block bg-clip-text hover:bg-cyan-400 font-bold">
+            <span className="p-1 bg-gradient-to-b from-cyan-300 via-sky-400 to-blue-900 text-transparent inline-block bg-clip-text hover:bg-cyan-400 font-bold">
               Help me brainstorm!
             </span>
           </button>

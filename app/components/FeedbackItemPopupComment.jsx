@@ -12,7 +12,7 @@ const FeedbackItemPopupComment = () => {
           <span>
             <Avatar />
           </span>
-          <p className="bg-gradient-to-r from-cyan-300 via-sky-600 to-gray-800 inline-block text-transparent bg-clip-text  font-semibold text-md">
+          <p className="bg-gradient-to-b from-cyan-300 via-cyan-500 to-blue-900 inline-block text-transparent bg-clip-text  font-semibold text-md">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero,
             commodi voluptates? Dolorum consectetur, optio porro hic accusantium
             totam quos vero, fugit voluptatem tenetur accusamus perferendis
@@ -32,11 +32,11 @@ const FeedbackItemPopupComment = () => {
           onChange={(e) => setCommentText(e.target.value)}
         />
         <div className="flex justify-end gap-2 mt-2">
-          <button className=" ml-2 bg-gradient-to-r from-cyan-300 via-sky-600 to-gray-800 inline-block text-transparent bg-clip-text  font-semibold text-md">
+          <button className=" ml-2 bg-gradient-to-b from-cyan-300 via-cyan-500 to-blue-800 inline-block text-transparent bg-clip-text  font-semibold text-md">
             Attach Files
           </button>
           <button
-            className="mr-10 bg-gradient-to-r from-cyan-300 via-sky-600 to-gray-800 inline-block text-transparent bg-clip-text  font-semibold text-md"
+            className="mr-10 bg-gradient-to-b from-cyan-300 via-cyan-500 to-blue-800 inline-block text-transparent bg-clip-text  font-semibold text-md"
             disabled={commentText === ''}
           >
             Comment

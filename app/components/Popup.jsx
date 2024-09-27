@@ -16,7 +16,7 @@ const Popup = ({ setShow, children, title }) => {
         <div
           className="bg-salte-900 md:max-w-2xl md:mx-auto md:rounded-lg overflow-hidden"
           onClick={(e) => e.stopPropagation()}
-          // to stop the bubbling by clocking the inside so we stop the propagation by being clicked inside the div element
+          // to stop the bubbling by clocking the inside so we stop the propagation by being clicked inside the div
         >
           <div className="relative flex justify-center ">
             <button
@@ -28,7 +28,7 @@ const Popup = ({ setShow, children, title }) => {
           </div>
 
           <div className="flex flex-col justify-center items-center align-middle p-8  ">
-            <h2 className=" bg-gradient-to-r from-cyan-400 via-sky-600 to-gray-800 inline-block text-transparent bg-clip-text font-extrabold text-2xl p-7 ">
+            <h2 className=" bg-gradient-to-b from-cyan-300 via-cyan-500 to-blue-800 inline-block text-transparent bg-clip-text font-extrabold text-3xl p-8 ">
               {title}
             </h2>
             {children}
